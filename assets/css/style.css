@@ -1,0 +1,17 @@
+h1 {
+    color: blue;
+}
+
+nav {
+    margin-top: 20px;
+    display: inline;
+    float: right;
+   
+    
+}
+
+nav li {
+    padding: 20px;
+    display: inline;
+    color: blue;
+}
