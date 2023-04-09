@@ -1,7 +1,7 @@
 h1 {
     color: blue;
 }
-
+/* header css settings */
 header {
     padding: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,13 +16,13 @@ header h1 {
     font-size: 48px;
 }
 
+/* navbar css settings */
 nav {
     padding-top: 0 auto;
     padding-bottom: 40px;
     margin-right: 20px;
     float: right;
     font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
-    font-size: 20px;
     text-decoration: none;
 }
 
@@ -35,11 +35,57 @@ nav li {
     display: inline-block;
     margin-left: 25px;
     font-size: 30px;
-    list-style-type: none;
     
 }
 
-#name {
+.profile {
+    margin: 40px;
+    padding: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* eggradients.com */
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
+    background-image: src="/assets/images/background-1.jpg" alt="background";
+    color: #ffffff;
+    
+}
+
+/* w3schools.com */
+.avatar {
+    padding-top: 0 auto;
+    padding-bottom: 40px;
+    margin-left: 25px;
+    position: absolute;
+    top: 200px;
+    left: 75px;  
+    vertical-align: middle;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+
+
+/* sub-title css settings */
+.sub-title {
+    padding-top: 0 auto;
+    padding-bottom: 40px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
+    font-size: 30px;
+    text-decoration: none;
+}
+
+.sub-title li {
+    position: absolute;
+    top: 300px;
+    right: 75px;
+    color: #1c75a8;
+}
+
+/* Positioning, size, and color of subject's name */
+#name h1 {
     padding-top: 0 auto;
     padding-bottom: 40px;
     float: left;
@@ -47,7 +93,7 @@ nav li {
     font-size: 30px;
     text-decoration: none;
     margin-left: 25px;
-    list-style-type: none;
+    color: white;
 }
 
 
