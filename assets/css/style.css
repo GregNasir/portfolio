@@ -2,16 +2,53 @@ h1 {
     color: blue;
 }
 
+header {
+    padding: 60px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* eggradients.com */
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
+    color: #ffffff;
+}
+
+header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+
 nav {
-    margin-top: 20px;
-    display: inline;
+    padding-top: 0 auto;
+    padding-bottom: 40px;
+    margin-right: 20px;
     float: right;
-   
-    
+    font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
+    font-size: 20px;
+    text-decoration: none;
+}
+
+nav ul a {
+    color: white;
+    text-decoration: none;
 }
 
 nav li {
-    padding: 20px;
-    display: inline;
-    color: blue;
+    display: inline-block;
+    margin-left: 25px;
+    font-size: 30px;
+    list-style-type: none;
+    
 }
+
+#name {
+    padding-top: 0 auto;
+    padding-bottom: 40px;
+    float: left;
+    font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 25px;
+    list-style-type: none;
+}
+
+
+
