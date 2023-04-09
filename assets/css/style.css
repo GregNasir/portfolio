@@ -1,6 +1,16 @@
+:root {
+    --light: #ffffff;
+}
+
+
 h1 {
     color: blue;
 }
+
+h2 {
+
+}
+
 /* header css settings */
 header {
     padding: 60px;
@@ -8,7 +18,7 @@ header {
     /* eggradients.com */
     background-color: #2a2a72;
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
-    color: #ffffff;
+    color: var(--light);
 }
 
 header h1 {
@@ -27,7 +37,7 @@ nav {
 }
 
 nav ul a {
-    color: white;
+    color: var(--light);
     text-decoration: none;
 }
 
@@ -38,17 +48,25 @@ nav li {
     
 }
 
-.profile {
+/* lay-out of and font for main features section */
+.about-me {
     margin: 40px;
-    padding: 150px;
+    padding: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* eggradients.com */
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
-    background-image: src="/assets/images/background-1.jpg" alt="background";
-    color: #ffffff;
+}
+
+.about-me h2 {
+    font-size: 50px;
     
 }
+
+.about-me p {
+    font-size: 20px;
+}
+
 
 /* w3schools.com */
 .avatar {
@@ -64,6 +82,18 @@ nav li {
     border-radius: 50%;
   }
 
+  /* background image and colors for profile secton */
+  .profile {
+    margin: 40px;
+    padding: 150px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    /* eggradients.com */
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
+    background-image: src="/assets/images/background-1.jpg" alt="background";
+    color: var(--light);
+    
+}
 
 
 /* sub-title css settings */
@@ -93,7 +123,7 @@ nav li {
     font-size: 30px;
     text-decoration: none;
     margin-left: 25px;
-    color: white;
+    color: var(--light);
 }
 
 
