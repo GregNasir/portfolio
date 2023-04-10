@@ -70,12 +70,44 @@ nav li {
     margin-left: 200px;
     width: 830px;
     height: 400px;
+    margin-bottom: 15px;
+}
+
+#main-card img {
+    width: 830px;
+    
+}
+
+.other-cards-1 {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    row-gap: 2px;
+    padding-right: 75px;
+    
+    width: 830px;
+}
+
+.other-cards-1 li {
+    
+    
+    
+}
+
+.other-cards-1 img {
+    float: right;
+    margin-right: 20px;
+    height: 200px;
+    width: 410px;
+    margin-bottom: 15px;
 }
 
 
 .feature {  
     margin: 40px;
-    padding: 50px;
+    padding: 10px 40px 10px 40px;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -115,25 +147,10 @@ nav li {
 
 
 .card {
-    margin-bottom: 100px;
-}
-
-.other-cards-1 {
-    
-    width: 850px;
-    
-    
- 
     
 }
 
-.other-cards-1 img {
-    float: right;
-    margin: 10px;
-    height: 100px;
- 
-    margin-bottom: 10px;
-}
+
 
 
 /* w3schools.com */
