@@ -49,7 +49,11 @@ nav li {
 }
 
 /* lay-out of and font for main features section */
-.about-me {
+
+
+
+.feature {
+    
     margin: 40px;
     padding: 50px;
     display: flex;
@@ -58,15 +62,20 @@ nav li {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-.about-me h2 {
+.feature h2 {
+    display: inline-block;
+    left: 150%;
     font-size: 50px;
     
 }
 
-.about-me p {
+.feature p {
     font-size: 20px;
 }
 
+.heading {
+    
+}
 
 /* w3schools.com */
 .avatar {
@@ -83,7 +92,7 @@ nav li {
   }
 
   /* background image and colors for profile secton */
-  .profile {
+.profile {
     margin: 40px;
     padding: 150px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
