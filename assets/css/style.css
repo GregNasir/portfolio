@@ -70,11 +70,11 @@ nav li {
     margin-left: 200px;
     width: 830px;
     height: 400px;
-    margin-bottom: 15px;
 }
 
 #main-card img {
     width: 830px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
     
 }
 
@@ -84,9 +84,7 @@ nav li {
     flex-direction: row;
     justify-content: flex-end;
     align-items: center;
-    row-gap: 2px;
     padding-right: 75px;
-    
     width: 830px;
 }
 
@@ -102,6 +100,7 @@ nav li {
     height: 200px;
     width: 410px;
     margin-bottom: 15px;
+    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
 }
 
 
