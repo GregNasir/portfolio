@@ -75,8 +75,15 @@ nav li {
 #main-card img {
     width: 830px;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
-    
 }
+
+#main-card img:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 2);
+    border: groove;
+    border-color: var(--light);
+}
+
+
 
 .other-cards-1 {
     float: right;
@@ -88,10 +95,8 @@ nav li {
     width: 830px;
 }
 
-.other-cards-1 li {
-    
-    
-    
+.card:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / .2);
 }
 
 .other-cards-1 img {
@@ -100,7 +105,7 @@ nav li {
     height: 200px;
     width: 410px;
     margin-bottom: 15px;
-    box-shadow: 0 3px 10px rgb(0 0 0 / 0.5);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
 }
 
 
@@ -129,12 +134,35 @@ nav li {
 
 }
 
+.work-avatars-1 {
+    position: relative;
+}
+
 .work-avatars img {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    
     margin-left: 200px;
+}
+
+.work-title h2, .work-title p {
+        position: absolute;  /* this is for 100% height */
+        top: 300px; 
+        bottom: 0;   
+        left: 20%;
+        font-size: 30px;
+        color: var(--light);             
+}
+
+.work-title p {
+    position: absolute;  /* this is for 100% height */
+    top: 350px;  
+    font-size: 20px;
+}
+
+.work-title h2:hover, .work-title p:hover {
+   
+
 }
 
 
