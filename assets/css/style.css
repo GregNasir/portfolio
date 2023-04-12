@@ -83,8 +83,6 @@ nav li {
     border-color: var(--light);
 }
 
-
-
 .other-cards-1 {
     float: right;
     display: flex;
@@ -95,8 +93,51 @@ nav li {
     width: 830px;
 }
 
-.card:hover {
-    box-shadow: 0 3px 10px rgb(0 0 0 / .2);
+.card h2:hover {
+    font-size: 50px;
+    
+}
+
+.card-title-1  {
+    position: absolute; 
+    top: 1210px; 
+    bottom: 0;   
+    left: 40.5%;
+    font-size: 30px;
+    color: var(--light);
+}
+
+.card-title-2  {
+    position: absolute; 
+    top: 1210px; 
+    bottom: 0;   
+    left: 68%;
+    font-size: 30px;
+    color: var(--light);
+}
+
+
+.card-title-3  {
+    position: absolute; 
+    top: 1410px; 
+    bottom: 0;   
+    left: 40.5%;
+    font-size: 30px;
+    color: var(--light);
+}
+
+.card-title-4  {
+    position: absolute; 
+    top: 1410px; 
+    bottom: 0;   
+    left: 68%;
+    font-size: 30px;
+    color: var(--light);
+}
+
+.card-text p {
+    font-size: 20px;
+    margin-top: 10px;
 }
 
 .other-cards-1 img {
@@ -105,7 +146,7 @@ nav li {
     height: 200px;
     width: 410px;
     margin-bottom: 15px;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 0.2);
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
 }
 
 
@@ -146,25 +187,24 @@ nav li {
 }
 
 .work-title h2, .work-title p {
-        position: absolute;  /* this is for 100% height */
-        top: 300px; 
-        bottom: 0;   
-        left: 20%;
-        font-size: 30px;
-        color: var(--light);             
+    position: absolute; 
+    top: 300px; 
+    bottom: 0;   
+    left: 20%;
+    font-size: 30px;
+    color: var(--light);             
 }
 
 .work-title p {
-    position: absolute;  /* this is for 100% height */
+    position: absolute; 
     top: 350px;  
     font-size: 20px;
 }
 
-.work-title h2:hover, .work-title p:hover {
-   
-
+#contact {
+    position: absolute;
+    top: 1550px;
 }
-
 
 .heading {
     
