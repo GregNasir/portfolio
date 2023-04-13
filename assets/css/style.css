@@ -2,36 +2,52 @@
     --light: #ffffff;
 }
 
-
-h1 {
-    color: blue;
+html{
+    position: relative;
+    min-height: 100%;
 }
 
-h2 {
-
+main{
+    /*display: flex;
+    flex-wrap: wrap;*/  
+    margin-left:auto;
+    margin-right:auto;
+    width: 100%;
+    background-color: #009ffd;
 }
 
 /* header css settings */
 header {
+    
     padding: 60px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     /* eggradients.com */
     background-color: #2a2a72;
     background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
     color: var(--light);
+    width: 100%;
 }
 
-header h1 {
-    display: inline-block;
-    font-size: 48px;
+/* Positioning, size, and color of subject's name */
+#name h1 {
+    padding-top: 0 auto;
+    padding-bottom: 40px;
+    float: left;
+    font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
+    font-size: 30px;
+    text-decoration: none;
+    margin-left: 25px;
+    color: var(--light);
 }
 
 /* navbar css settings */
 nav {
     padding-top: 0 auto;
-    padding-bottom: 40px;
+    padding-bottom: 0 auto;
     margin-right: 20px;
-    float: right;
+    display: flex;
+    justify-content: flex-end;                                
+    margin: 0 auto;
     font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
     text-decoration: none;
 }
@@ -47,6 +63,73 @@ nav li {
     font-size: 30px;
     
 }
+
+/* background image and colors for profile secton */
+/* eggradients.com */
+.profile {
+    display: flex;
+    flex-direction: wrap;
+    justify-content: center;
+    margin: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a2a72;
+    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
+    background-image: src="/assets/images/background-1.jpg" alt="background";
+    color: var(--light);
+}
+
+
+/* w3schools.com */
+.avatar img {
+    padding: 10px;
+    margin-left: 10px;
+    flex: 1; 
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+  }
+
+.sub-title li {
+    margin-right: 40px;
+    font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
+    font-size: 30px;
+    text-decoration: none;
+    color: #1c75a8;
+    background-color: var(--light);
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.sub-title img {
+    width: 50px;
+}
+
+.feature {  
+    margin: 40px;
+    padding: 10px 40px 10px 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.about-float-left {
+    float: left;
+    margin-left: 200px;
+}
+
+#about-adjust h2 {
+    margin-left: 400px;
+}
+
+.para {
+    float: right;
+    margin-left: 200px;
+    line-height: 1.5;
+}
+
+
+
 
 /* lay-out of and font for main features section */
 
@@ -65,25 +148,6 @@ nav li {
     position: relative;
     flex: 1;
     margin-right: 65px;
-}
-
-.about-float-left {
-    float: left;
-    margin-left: 200px;
-    /*
-    float: left;
-    margin-left: 200px;
-    */
-}
-
-#about-adjust h2 {
-    margin-left: 400px;
-}
-
-.para {
-    float: right;
-    margin-left: 200px;
-    line-height: 1.5;
 }
 
 #main-card li {  
@@ -163,14 +227,7 @@ nav li {
 }
 
 
-.feature {  
-    margin: 40px;
-    padding: 10px 40px 10px 40px;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
+
 
 .feature h2 {
     font-size: 50px;
@@ -180,11 +237,6 @@ nav li {
 .feature p {
     font-size: 20px;
 }
-
-
-
-
-
 
 .work-title h2, .work-title p {
     position: absolute; 
@@ -213,63 +265,12 @@ nav li {
 
 
 
-/* w3schools.com */
-.avatar {
-    padding-top: 0 auto;
-    padding-bottom: 40px;
-    margin-left: 25px;
-    position: absolute;
-    top: 200px;
-    left: 75px;  
-    vertical-align: middle;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-  }
-
-  /* background image and colors for profile secton */
-.profile {
-    margin: 40px;
-    padding: 100px;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    /* eggradients.com */
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%); 
-    background-image: src="/assets/images/background-1.jpg" alt="background";
-    color: var(--light);
-    
-}
 
 
-/* sub-title css settings */
-.sub-title {
-    padding-top: 0 auto;
-    padding-bottom: 40px;
-    margin-right: 20px;
-    float: right;
-    font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
-    font-size: 30px;
-    text-decoration: none;
-}
+ 
 
-.sub-title li {
-    position: absolute;
-    top: 300px;
-    right: 75px;
-    color: #1c75a8;
-}
 
-/* Positioning, size, and color of subject's name */
-#name h1 {
-    padding-top: 0 auto;
-    padding-bottom: 40px;
-    float: left;
-    font-family: 'georgia', 'sans-serif',  'Gill Sans MT', Calibri, 'Trebuchet MS', 'Gill Sans';
-    font-size: 30px;
-    text-decoration: none;
-    margin-left: 25px;
-    color: var(--light);
-}
+
 
 
 @media screen and (max-width: 768px) {
@@ -277,20 +278,54 @@ nav li {
   main,
   nav {
     flex-direction: column;
+    background: transparent;
+    width: 100%;
   }
+
+  nav ul {
+    text-align: center;
+    order: 2;
+  }
+
+  
+
+
   /* Make the sidebar stack below the body */
   .about-float-left {
-    flex-direction: column;
-    order: 1;
+    order: 2;
   }
   /* Change the header background */
-  header {
-    background: #772014;
-  }
+  header{ 
+    flex-direction: column;
+}
+
+#name h1 {
+    text-align: center;
+    font-size: 70px;
+}
   /* Change the navbar and footer background */
   nav,
   footer {
-    background-color: #bb8588;
+    
   }
+  
+.profile {
+    flex-direction: column;
+    width: 100%;
+  }
+
+.avatar img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
 }
 
+.sub-title li {
+    text-align: center;
+    order: 2;
+    background-color: bisque;
+}
+
+
+}
