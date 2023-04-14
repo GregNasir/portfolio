@@ -27,7 +27,7 @@ All files including index.html were added, committed and pushed to GitHub. GitHu
 
 This webpage is a portfolio to showcase all web development projects, with contributions by Gregory Williams
 
-<img src="./assets/images/Portfolio-Screenshot" alt="Portfolio landing page"/>
+<img src="./assets/images/portfolio-screenshot.png" alt="Portfolio"/>
 
 # Credits
 
