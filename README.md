@@ -16,8 +16,8 @@ Developing this webpage I spent an extensive amount of time using flex box attri
 
 # Deployed site and repository
 
-<a href="https://gregnasir.github.io/portfolio/">"Gregory Williams Portfolio"</a>
-<a href="https://github.com/GregNasir/portfolio">"Gregory Williams Portfolio Repository</a>
+* <a href="https://gregnasir.github.io/portfolio/">Gregory Williams Portfolio</a>
+* <a href="https://github.com/GregNasir/portfolio">Gregory Williams Portfolio Repository</a>
 
 # Installation
 
@@ -27,7 +27,7 @@ All files including index.html were added, committed and pushed to GitHub. GitHu
 
 This webpage is a portfolio to showcase all web development projects, with contributions by Gregory Williams
 
-<img src="./assets/images/Portfolio-screenshot" alt="Portfolio landing page"/>
+<img src="./assets/images/Portfolio-Screenshot" alt="Portfolio landing page"/>
 
 # Credits
 
