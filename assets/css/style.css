@@ -13,8 +13,6 @@ main{
     margin-left:auto;
     margin-right:auto;
     width: 90%;
-    background-color: #2a2a72;
-    background-image: linear-gradient(315deg, #2a2a72 0%, #009ffd 74%);
 }
 
 /* header css settings */
@@ -175,8 +173,6 @@ nav li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
-    background-color: red;
-    
 }
 
 
@@ -187,9 +183,7 @@ nav li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
-    margin-bottom: 10px;
-    background-color: yellow;
-    
+    margin-bottom: 10px; 
 }
 
 .card {
@@ -363,10 +357,7 @@ nav li {
         font-size: 70px;
     }
     /* Change the navbar and footer background */
-    nav,
-    footer {
-        
-    }
+   
     
     .profile {
         flex-direction: column;
@@ -382,11 +373,12 @@ nav li {
         width: 50%;
     }
 
-    .sub-title li {
+    .sub-title  {
         text-align: center;
         order: 2;
         background-color: bisque;
     }
+
 
     .about {
         flex-direction: column;
@@ -412,5 +404,10 @@ nav li {
         order: 2;
         align-content: center;
     }
+
+    #work h2 {
+        text-align: center;
+    }
+
 
     }
