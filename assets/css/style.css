@@ -163,9 +163,11 @@ nav li {
     margin-right: 20px; 
 }
 
+
 .other-card-1 {
     display: flex;
 }
+
 
 .projects-2 {
     width: 100%;
@@ -173,12 +175,25 @@ nav li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
+    background-color: red;
+    
+}
+
+
+
+.projects-3 {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+    background-color: yellow;
     
 }
 
 .card {
-    flex: 3;
-    
+    flex: 3;  
     display: flex;
     
 }
@@ -187,7 +202,32 @@ nav li {
     width: 100%;
     height: 266px;
     margin-top: 10px;
-    margin-right: 20px;
+    margin-right: 22px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
+    object-fit: cover;
+}
+
+.card-2 {
+    flex: 3;  
+    display: flex;
+    
+}
+
+.card-2 img {
+    width: 400px;
+    height: 266px;
+    margin-top: 10px;
+    
+    margin-right: 22px;
+    box-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
+    object-fit: cover;
+}
+
+.card-3 img {
+    width: 96%;
+    height: 266px;
+    margin-top: 10px;
+    margin-right: 26px;
     box-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
     object-fit: cover;
 }
@@ -195,14 +235,6 @@ nav li {
 /* lay-out of and font for main features section */
 
 
-
-
-
-.other-cards-2 {
-    position: relative;
-    flex: 1;
-    margin-right: 65px;
-}
 
 
 
@@ -307,7 +339,7 @@ nav li {
     
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 900px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main,
   nav {
@@ -339,6 +371,8 @@ nav li {
     .profile {
         flex-direction: column;
         width: 100%;
+        align-self: center;
+        margin: auto;
     }
 
     .avatar img {
@@ -376,6 +410,7 @@ nav li {
 
     .work-card-1 img {
         order: 2;
+        align-content: center;
     }
 
     }
