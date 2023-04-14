@@ -138,10 +138,20 @@ nav li {
     display: flex;
     flex-direction: row;
     
+    background-color: yellow;
+    
+}
+
+.project img {
+    flex: 4;
 }
 
 .work-card-1 {
-    flex: 3;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    
 }
 
 #main-card img {
@@ -157,13 +167,13 @@ nav li {
 }
 
 #main-card li {  
-    float: right; 
+    flex: 3; 
     margin-right: 20px; 
 }
 
 
 .other-card-1 {
-    display: flex;
+    
 }
 
 
@@ -173,6 +183,7 @@ nav li {
     flex-wrap: wrap;
     flex-direction: row;
     justify-content: flex-end;
+    background-color: green;
 }
 
 
@@ -282,7 +293,9 @@ nav li {
 }
 
 
-
+.features {
+    background-color: red;
+}
 
 
 
@@ -333,14 +346,21 @@ nav li {
     
 }
 
-@media screen and (max-width: 900px) {
+@media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main,
   nav {
     flex-direction: column;
     background: transparent;
-    width: 100%;
+    width: 90%;
+
   }
+
+  main {
+    align-content: center;
+    margin: auto;
+  }
+
 
   nav ul {
     text-align: center;
@@ -400,9 +420,20 @@ nav li {
         flex-direction: column;
     }
 
-    .work-card-1 img {
-        order: 2;
+    .work-card-1 {
         align-content: center;
+    }
+
+    .projects ul {
+       display: flex;
+       flex-direction: column;
+       justify-content: center;
+       
+      
+    }
+
+    #main-card img {
+        height: 500px;
     }
 
     #work h2 {
