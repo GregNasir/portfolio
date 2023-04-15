@@ -200,7 +200,7 @@ nav li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-right:  35px;
+    margin: auto;
 }
 
 .projects-3 {
@@ -213,15 +213,15 @@ nav li {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin-right:  35px;
+    margin: auto;
 }
 
 .projects-2  {
-    margin: 10px;
+    margin: auto;
 }
 
 .image-2 {
-    margin-right: 27px;
+    margin-right: 22px;
 }
 
 /*
@@ -446,17 +446,13 @@ nav li {
         flex-direction: column;
     }
 
-    .work-card-1 {
+    .work-card-1  {
+        overflow: hidden;
         align-content: center;
+        
     }
 
-    .projects ul {
-       display: flex;
-       flex-direction: column;
-       justify-content: center;
-       
-      
-    }
+   
 
     #main-card img {
         height: 500px;
