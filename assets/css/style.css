@@ -310,8 +310,9 @@ nav li {
   }
 
   nav {
+    display: block;
     text-align: center;
-    order: 1;
+    order: 2;
   }
 
     /* Change the header background */
