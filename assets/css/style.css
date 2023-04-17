@@ -15,9 +15,8 @@ html{
 main{
     /*display: flex;
     flex-wrap: wrap;*/  
-    margin-left:auto;
-    margin-right:auto;
-    width: 90%;
+    margin: 0;
+    
 }
 
 /* header css settings */
@@ -158,16 +157,41 @@ nav li {
     display: flex;
     flex-direction: row; 
     */
+    
     margin: auto;
     text-align: center;
     /*background-color: red;*/
+    
 
 }
 
-
+/* makes first project larger and highlight upon hovering */
 .work-card-1 {
+    width: 830px;
+    height: 400px;
     justify-content: center;
-    
+}
+
+#main-card {
+    position: relative;
+    text-align: center;
+    color: var(--light);
+    font-size: 30px;
+    font-family: var(--main-font);
+}
+
+.main-card-text-1 {
+    position: absolute;
+    bottom: 60px;
+    left: 16px;
+}
+
+.main-card-text-2 {
+    position: absolute;
+    bottom: 30px;
+    left: 16px;
+    font-family: var(--main-font);
+    font-size: 25px;
 }
 
 #main-card img {
@@ -182,147 +206,55 @@ nav li {
     border-color: var(--light);
 }
 
-#main-card li {  
-    flex: 3; 
-    margin-right: 20px; 
-}
 
 /* settings for thumbnails of projects */
-.projects-2, .projects-3 {
-    width: 100%;
+.projects-2 {
     display: flex;
-    flex-wrap: wrap;
     flex-direction: row;
+    /* Centers along with flex-direction */
     justify-content: center;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto;  
 }
 
-.projects-2 ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    margin: auto;
+.other-card-1 {
+    position: relative;
+    text-align: center;
+    color: var(--light);
+    font-size: 30px;
+    font-family: var(--main-font);
+    width: 415px;
+    text-align: center;
+    border-width: 1px; 
 }
 
 .projects-3 {
-    padding: 10px; 
-}
-
-
-
-.projects-3 ul {
-    display: flex;
+    display: flex;  
     flex-direction: row;
+    /* Centers along with flex-direction */
     justify-content: center;
-    margin: auto;
+    align-items: center;
+    width: 90%;
+    height: 300px;
+    margin: 0 auto; 
+    overflow: hidden;;
 }
 
-.projects-2  {
-    margin: auto;
-}
+.other-card-1 img { 
 
-.image-2 {
-    margin-right: 22px;
-}
-
-/*
-.card {
-    flex: 3;  
-    display: flex;
-    
-}
-*/
-
-.card img {
-    width: 100%;
-    height: 266px;
-    margin-top: 10px;
-    
+    width: 98%;
     box-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
-    object-fit: cover;
 }
 
-.card-2 {
-    flex: 3;  
-    display: flex;
-    
-}
-
-.card-2 img {
-    width: 400px;
-    height: 266px;
-    margin-top: 10px;
-    
-    margin-right: 22px;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
-    object-fit: cover;
-}
-
-.card-3 img {
-    width: 96%;
-    height: 266px;
-    margin-top: 10px;
-    margin-right: 26px;
-    box-shadow: 0 1px 2px rgb(0 0 0 / 0.5);
-    object-fit: cover;
+.other-card-1 img:hover {
+    box-shadow: 0 3px 10px rgb(0 0 0 / 2);
+    border: groove;
+    border-color: var(--light);
 }
 
 /* lay-out of and font for main features section */
-
-
-
-
-.card h2:hover {
-    font-size: 50px;
-    
-}
-
-.card-title-1  {
-    position: absolute; 
-    top: 1210px; 
-    bottom: 0;   
-    left: 40.5%;
-    font-size: 30px;
-    color: var(--light);
-}
-
-.card-title-2  {
-    position: absolute; 
-    top: 1210px; 
-    bottom: 0;   
-    left: 68%;
-    font-size: 30px;
-    color: var(--light);
-}
-
-
-.card-title-3  {
-    position: absolute; 
-    top: 1410px; 
-    bottom: 0;   
-    left: 40.5%;
-    font-size: 30px;
-    color: var(--light);
-}
-
-.card-title-4  {
-    position: absolute; 
-    top: 1410px; 
-    bottom: 0;   
-    left: 68%;
-    font-size: 30px;
-    color: var(--light);
-}
-
-.card-text p {
-    font-size: 20px;
-    margin-top: 10px;
-}
-
-
-.features {
-    /*background-color: red;*/
-}
-
 
 
 .feature h2 {
@@ -334,27 +266,13 @@ nav li {
     font-size: 20px;
 }
 
-.work-title h2, .work-title p {
-    position: absolute; 
-    top: 300px; 
-    bottom: 0;   
-    left: 20%;
-    font-size: 30px;
-    color: var(--light);             
-}
-
-.work-title p {
-    /*position: absolute;*/
-    top: 350px;  
-    font-size: 20px;
-}
 
 
-.contacts {
+.contacts li {
     padding-top: 0 auto;
     padding-bottom: 0 auto;
     display: flex;
-    justify-content: flex-end;                                
+    justify-content: center;                                
     margin: 0 auto;
     font-family: var(--font-2);
     text-decoration: none;
@@ -369,6 +287,7 @@ nav li {
     display: inline-block;
     margin-left: 25px;
     font-size: 30px;
+    line-height: 2;
     
 }
 
@@ -378,13 +297,11 @@ nav li {
   nav {
     flex-direction: column;
     background: transparent;
-    width: 90%;
-
   }
 
-  main {
+  main {/*
     align-content: center;
-    margin: auto;
+    margin: auto;*/
   }
 
 
@@ -402,9 +319,7 @@ nav li {
         text-align: center;
         font-size: 70px;
     }
-    /* Change the navbar and footer background */
-   
-    
+     
     .profile {
         flex-direction: column;
         width: 100%;
@@ -430,11 +345,19 @@ nav li {
         flex-direction: column;
         width: 100%;
     }
+
+   
+
+    .card-2 {
+        overflow: hidden;
+    }
     /*
     .about-float-left {
         flex: 1;
         margin: 5px;
     }
+
+   
     */
     /* Make the sidebar stack below the body */
     .para {
@@ -442,33 +365,34 @@ nav li {
     /*order: 2;*/
     }
 
-    .projects {
-        flex-direction: column;
+    .main-card {
+        display: block;
+        margin-left: auto;
+        width: 50%;
+        object-fit: cover;
+
     }
 
-    .work-card-1  {
-        overflow: hidden;
-        align-content: center;
-        
+    .projects-2 {
+        height: 70%;
+        padding: 20px;
     }
+
+    .projects-3 {
+        height: 70%;
+        padding: 20px;
+    }
+
 
    
 
-    #main-card img {
-        height: 500px;
-    }
+   
 
-    #work h2 {
-        text-align: center;
-    }
+   
 
-    .work-card-1 ul {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        margin: auto;
-        
-    }
+    
 
+  
 
-    }
+}
+
