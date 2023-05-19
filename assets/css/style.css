@@ -5,16 +5,10 @@
 }
 
 /* set overall structure fo HTML */
-/*
-html{
-    position: relative;
-    min-height: 100%;
-}
-*/
+
 /* sets margins and width for main section */
 main{
-    /*display: flex;
-    flex-wrap: wrap;*/  
+    
     margin: 0;
     
 }
@@ -178,6 +172,7 @@ nav li {
     position: absolute;
     bottom: 60px;
     left: 16px;
+    color: black;
 }
 
 .main-card-text-2 {
@@ -186,6 +181,7 @@ nav li {
     left: 16px;
     font-family: var(--main-font);
     font-size: 25px;
+    color: black;
 }
 
 #main-card img {
@@ -198,14 +194,6 @@ nav li {
     border: groove;
     border-color: var(--light);
 }
-/*
-.work-card-1 {
-    width: 830px;
-    height: 400px;
-    justify-content: center;
-    background-color: red;
-}
-*/
 
 .work-card-1 {
     display: flex;
@@ -238,6 +226,7 @@ nav li {
     width: 415px;
     text-align: center;
     border-width: 1px; 
+    /* height: 20px; */
 }
 
 .projects-3 {
@@ -301,6 +290,12 @@ nav li {
     
 }
 
+
+/* #img-javascript-api {
+    height: 20px;
+} */
+
+
 @media screen and (max-width: 768px) {
   /* Use flex-direction to stack the navbar, sidebar, and body */
   main,
@@ -356,7 +351,6 @@ nav li {
         width: 100%;
     }
 
-   
 
 
     .para {
@@ -379,15 +373,7 @@ nav li {
     }
 
 
-   
 
-   
-
-   
-
-    
-
-  
 
 }
 
